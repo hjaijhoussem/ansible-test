@@ -4,9 +4,9 @@
   become: yes
   tasks:
     - name: Install Nginx
-        apt:
-          name: nginx
-          state: present
+      apt:
+        name: nginx
+        state: present
     - name: start nginx
       service:
         name: nginx
