@@ -11,4 +11,7 @@
       service:
         name: nginx
         state: started
+    - name: debug
+      debug:
+        msg: "{{ image }}"
     
