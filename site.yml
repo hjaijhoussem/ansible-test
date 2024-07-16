@@ -3,7 +3,7 @@
   hosts: all
   become: yes
   vars:
-    - image: "hjaiej"
+    image: "hjaiej"
   tasks:
     - name: Install Nginx
       apt:
